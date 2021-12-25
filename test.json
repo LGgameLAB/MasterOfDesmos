@@ -1,0 +1,6 @@
+{
+    "graph": [
+        {"id":"graph1", "latex":"\\sin(x^{-1})"},
+        {"id":"graph2", "latex": "\\sqrt{(25-x^{2})}"}
+    ]
+}
