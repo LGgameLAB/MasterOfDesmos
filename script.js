@@ -8,7 +8,7 @@ function addExpression(value, index, array) {
         calculator.setExpression(value);
     };
 
-$.getJSON("test.json", function(json){
+$.getJSON("test.json", (json) => {
     setup = json;
     console.log(setup);
     setup.graph.forEach(addExpression);
